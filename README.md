@@ -1,9 +1,18 @@
+# Notice 告示
+This project has been renamed to [Matrix][https://github.com/clazz/Matrix], using PHPUnit to test.
+
+此工程已经改名，并使用PHPUnit进行测试，详见[Matrix][https://github.com/clazz/Matrix]
+
+---------------------------------------------
+
 # Introduce 介绍
 SQL style query utils for PHP.
+
 为PHP写的SQL风格的查询工具。
 
 # Backgroud 背景
 In my projects, I've found a lot of codes are for transforming data formats. But, I've NOT found simple ways to deal the following problems in PHP. 
+
 在我的项目中，我发现有很多数据是做数据格式转换的。但是我却没有能在PHP中找到一些简单的方法来解决以下问题：
 
  - Only partial columns of data are being processed, when the data source returned a lot of columns;
@@ -14,6 +23,7 @@ In my projects, I've found a lot of codes are for transforming data formats. But
  - 为了后续处理的效率，希望将数据表转换为以某一列为索引的key-value的映射结构；
 
 So I begin this project to make things easy and efficient.
+
 所以有了这个项目，希望能让事情变得简单、高效。
 
 # Examples 示例
